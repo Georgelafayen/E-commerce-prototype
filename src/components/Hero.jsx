@@ -18,7 +18,7 @@ const Hero = () => {
             <span className="font-semibold text-zinc-900">MEN</span>
           </h1>
           <Link
-            to={"/"}
+            to={"/E-commerce-prototype/"}
             className="self-start font-semibold uppercase border-b-2 border-black "
           >
             Discover more
