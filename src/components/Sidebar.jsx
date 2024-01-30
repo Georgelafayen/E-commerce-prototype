@@ -40,19 +40,19 @@ const Sidebar = () => {
           {/*Clear button*/}
           <div
             onClick={() => clearCart()}
-            className="flex justify-center w-12 h-12 py-4 text-xl bg-red-700 cursor-pointer imtes-center"
+            className="flex items-center justify-center w-12 h-12 py-4 text-xl bg-red-700 cursor-pointer"
           >
             <FiTrash2 />
           </div>
         </div>
         <Link
-          to={"/"}
+          to={"/E-commerce-prototype/"}
           className="flex items-center justify-center w-full p-4 font-medium bg-gray-400"
         >
           View cart
         </Link>
         <Link
-          to={"/"}
+          to={"/E-commerce-prototype/"}
           className="flex items-center justify-center w-full p-4 font-medium text-white bg-black"
         >
           Checkout
